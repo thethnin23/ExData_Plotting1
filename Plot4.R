@@ -31,5 +31,5 @@ legend("topright",c("Sub_Metering_1", "Sub_Metering_2", "Sub_Metering_3"), lty=c
 with(newtest, plot(DateTime,Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
 
 # create a png file by copying the plot from the screen device with dimensions 480x480 
-dev.copy(png, filename="Plot4.png", width = 480, height= 480, units ="px")
+dev.copy(png, filename="plot4.png", width = 480, height= 480, units ="px")
 dev.off()

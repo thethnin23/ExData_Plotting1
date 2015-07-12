@@ -15,5 +15,5 @@ newtest <- data.frame(test, DateTime = newDateTime)
 with(newtest, plot(DateTime, Global_active_power, type="l", xlab = "", ylab = "Global Active Power(kilowatts)"))
 
 # create a png file by copying the plot from the screen device with dimensions 480x480 
-dev.copy(png, filename="Plot2.png", width = 480, height= 480, units ="px")
+dev.copy(png, filename="plot2.png", width = 480, height= 480, units ="px")
 dev.off()

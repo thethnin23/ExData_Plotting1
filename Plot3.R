@@ -23,5 +23,5 @@ lines(newtest$DateTime, newtest$Sub_metering_3, type="l", col = "blue")
 legend("topright",c("Sub_Metering_1", "Sub_Metering_2", "Sub_Metering_3"), lty=c(1,1), lwd=c(1,1), col = c("black","red", "blue"), cex = 0.75)
 
 # create a png file by copying the plot from the screen device with dimensions 480x480 
-dev.copy(png, filename="Plot3.png", width = 480, height= 480, units ="px")
+dev.copy(png, filename="plot3.png", width = 480, height= 480, units ="px")
 dev.off()
